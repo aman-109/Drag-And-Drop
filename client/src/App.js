@@ -6,7 +6,7 @@ const App = () => {
     const [items, setItems] = useState([]);
 
     useEffect(() => {
-        fetch('http://localhost:8080/items')
+        fetch('hhttps://drag-and-drop-vc2x.onrender.com/items')
             .then(response => response.json())
             .then(data => setItems(data));
     }, []);
